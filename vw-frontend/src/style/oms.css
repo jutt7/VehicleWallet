@@ -1,0 +1,199 @@
+.login-input {
+  border-radius: 20px;
+  background: #e7e7e7;
+}
+
+.login-btn {
+  border-radius: 20px !important;
+  width: 130px;
+}
+
+.category-item {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #0c5640;
+  border-radius: 6px;
+  margin-right: 10px;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  background-color: #0c5640;
+  color: white;
+}
+
+.green-check-mark {
+  display: inline-block;
+  height: 30px;
+  width: 15px;
+  top: 5px;
+  right: 5px;
+  border-bottom: 5px solid chartreuse;
+  border-right: 5px solid chartreuse;
+  transform: rotate(45deg);
+}
+
+.oms-box {
+  border: 1px solid #0c5640;
+  background: #fefefe;
+  border-radius: 10px;
+  padding: 0px;
+  margin-left: 15px;
+}
+
+.oms-box-label {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background: #0c5640;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.asset-category-item {
+  height: 180px;
+  width: 180px;
+  border: 1px solid #0c5640;
+  padding: 0px;
+  margin: 15px 0px 0px 15px;
+  justify-content: center;
+  text-align: center;
+}
+
+.skip-collection-category-item {
+  height: 180px;
+  width: 180px;
+  border: 1px solid #0f7544;
+  padding: 0px;
+  margin: 15px 0px 0px 15px;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.dashboard-box {
+  border: 1px solid #0c5640;
+  background: #fefefe;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.aqg-account-box {
+  border: 1px solid #0c5640;
+  background: #fefefe;
+  padding: 0px;
+  margin: 3px;
+  height: 300px;
+}
+
+.aqg-account-box .header {
+  padding: 8px;
+  width: 100%;
+  background: #0c5640;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+}
+
+.aqg-account-box .icon {
+  width: 50px;
+  height: 50px;
+}
+
+.details td {
+  border: none;
+}
+
+.aqg-account-box-inner {
+  overflow-x: auto;
+  padding: 0px !important;
+  height: 265px !important;
+  width: 100%;
+}
+
+.aqg-account-box-inner table{
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    position: left;
+    overflow-x: auto;
+    font-size: 11px !important;
+    width: 100%;
+    
+}
+
+.aqg-account-box-inner thead th {
+	position: sticky;
+	top: 0;
+}
+
+.aqg-account-box-inner tbody td{
+	padding: 8px 8px;
+	border-bottom: 1px solid #EBE9F1;
+}
+
+.row-centered {
+  text-align: center;
+  justify-content: center;
+}
+
+.oms-label-control {
+  min-width: 120px;
+  padding: 8px 8px 8px 0px !important;
+  margin: 0px !important;
+}
+
+.trip-detail .rs-steps {
+  width: 100% !important;
+}
+
+/*Ayesha: overiding default spacing between Icon and Text in Nav.Item in rsuite */
+.rs-sidebar .rs-sidebar-collapse {
+  margin-left: -5px !important;
+}
+
+.rs-sidenav .rs-nav-item .rs-nav-item-content > .rs-icon {
+  left: 30px;
+}
+
+.rs-nav.rs-nav-vertical .rs-dropdown > .rs-dropdown-toggle {
+  padding-bottom: 7px;
+}
+
+.rs-sidenav .rs-nav-item .rs-nav-item-content > .rs-icon,
+.rs-sidenav .rs-dropdown .rs-dropdown-toggle > .rs-icon {
+  left: 30px;
+}
+
+.rs-sidenav .rs-nav-item > .rs-nav-item-content {
+  padding: 7px 1px 5px 57px !important;
+}
+
+.rs-dropdown-item-content {
+  padding: 7px 1px 5px 57px !important;
+}
+
+.logout-menu .rs-dropdown-toggle-caret {
+  color: white !important;
+}
+
+.omsSideDropDown {
+  height: 100%;
+  overflow: auto;
+  /* left: 60px;
+    position: absolute; */
+}
+
+.omsDropDown {
+  background-color: #0c5640 !important;
+  border-color: #0c5640 !important;
+  padding: 3px 10px 3px 0px;
+}

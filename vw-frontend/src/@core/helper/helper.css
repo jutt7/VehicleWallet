@@ -1,0 +1,17 @@
+.toastContainerSuccess {
+  min-height: 37px !important;
+  background-color: #aaf7aa;
+}
+
+.toastContainer {
+  min-height: 37px !important;
+  background-color: #f8d0cf;
+}
+
+.toastContainer .Toastify__toast-body {
+  color: #e74c3c !important;
+}
+
+.toastContainerSuccess .Toastify__toast-body {
+  color: #07bc0c !important;
+}

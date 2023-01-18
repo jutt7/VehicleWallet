@@ -1,0 +1,121 @@
+// ================================================================================================
+// 	File Name: semi-dark-layout.scss
+// 	Description: SCSS file for semi dark layout.
+// 	----------------------------------------------------------------------------------------------
+// 	Item Name: Vehicle Wallet  - Vuejs, HTML & Laravel Admin Dashboard Template
+// 	Author: PIXINVENT
+// 	Author URL: http://www.themeforest.net/user/pixinvent
+// ================================================================================================
+
+@import "../bootstrap-extended/include"; // Bootstrap includes
+@import "../components/include"; // Components includes
+
+.semi-dark-layout {
+  /************ Main Menu **************/
+
+  // main menu
+  .main-menu {
+    background-color: $primary;
+    .shadow-bottom {
+      background: linear-gradient(
+        180deg,
+        $primary 44%,
+        rgba($primary, 0.51) 73%,
+        rgba($primary, 0)
+      );
+    }
+    &:not(.expanded) {
+      .navigation {
+        .sidebar-group-active {
+          > a {
+            background-color: $secondary !important;
+          }
+        }
+      }
+    }
+  }
+
+  // main menu content
+  .main-menu-content {
+    .navigation-main {
+      background-color: $primary;
+      .navigation-header {
+        color: $theme-dark-text-muted-color;
+      }
+      .nav-item {
+        a {
+          color: $white;
+        }
+        &.open:not(.sidebar-group-active) {
+          > a {
+            background-color: $secondary;
+          }
+        }
+        a:after,
+        a {
+          color: $white !important;
+        }
+        .menu-content {
+          background-color: $primary;
+          .active {
+            .menu-item {
+              color: #000;
+            }
+          }
+          li:not(.active) {
+            a {
+              background-color: $primary;
+            }
+          }
+        }
+      }
+      .active {
+        > a {
+          color: #000 !important;
+        }
+        > a img {
+          -webkit-filter: invert(100%); /* Safari/Chrome */
+          filter: invert(100%);
+        }
+        .menu-title,
+        i {
+          color: $white;
+        }
+      }
+      // .active {
+      //   > a img {
+      //     width: 10px !important;
+      //   }
+      // }
+      .sidebar-group-active {
+        a {
+          border-radius: 4px;
+        }
+      }
+      .menu-content {
+        background-color: $primary;
+        .active {
+          z-index: 1;
+          a {
+            background-color: $secondary;
+            color: #000 !important;
+          }
+        }
+      }
+    }
+  }
+
+  // menu collapsed active item color
+  .menu-collapsed {
+    .main-menu:not(.expanded) {
+      .navigation-main {
+        li.active {
+          > a {
+            // background: $theme-dark-body-bg !important;
+            color: $white !important;
+          }
+        }
+      }
+    }
+  }
+}

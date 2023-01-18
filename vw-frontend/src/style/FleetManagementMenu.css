@@ -1,0 +1,55 @@
+.progress {
+  height: 5px !important;
+  margin-left: -75px;
+  margin-right: -5px;
+  margin-top: 10px;
+}
+.customTextFont {
+  font-size: 15px;
+}
+.graphContent * {
+  color: white !important;
+}
+.crudOperationAddBtn {
+  background-color: #0c5640;
+  border-color: #0c5640;
+  color: white;
+  border-radius: 0;
+  padding: 5px;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.marginLeft5px {
+  margin-left: 5px;
+}
+.fleetPaginator {
+  margin-top: 10px;
+  float: right;
+}
+.linkClass {
+  background-color: #0c5640;
+  color: white;
+  padding: 7px;
+  margin: 5px;
+}
+.evenRowColor {
+  background-color: #c8e7c9;
+  /* font-size: 12px; */
+}
+.backgroundColorNone {
+  background: none;
+  font-size: 12px !important;
+}
+
+.fStyleMonitoringIconGray {
+  color: gray;
+}
+
+.fStyleMonitoringIconGreen {
+  color: green !important;
+}
+
+.table_headColor {
+  color: black;
+  margin-right: 2px;
+}

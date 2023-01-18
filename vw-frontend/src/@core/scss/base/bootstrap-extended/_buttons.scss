@@ -1,0 +1,210 @@
+.msts__subheading {
+  display: flex;
+}
+
+.msts__heading {
+  background-color: yellow;
+  display: flex;
+}
+.message_table {
+  overflow: auto;
+  /* height: 300px; */
+  /* width:740px; */
+}
+.msts__body {
+  display: flex;
+}
+.table_border {
+  border: none !important;
+}
+.msts__footer {
+  display: flex;
+}
+.msts__side {
+  width: 50%;
+}
+.twosideMultiselect .msts__list-item:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+.twosideMultiselect .msts__list-item_disabled {
+  background-color: #ecf0f1;
+  color: #7f8c8d;
+}
+.twosideMultiselect .msts__list-item_disabled:hover {
+  background-color: #ecf0f1;
+  color: #7f8c8d;
+}
+.twosideMultiselect .msts__list-item_highlighted {
+  background-color: rgba(41, 128, 185, 0.25);
+}
+.twosideMultiselect .msts__control {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 10px 3px;
+  color: #bdc3c7;
+  transition: color ease 0.15s;
+}
+.twosideMultiselect .msts__control:hover {
+  color: #95a5a6;
+}
+.twosideMultiselect .msts__control[disabled] {
+  color: #ecf0f1;
+}
+.twosideMultiselect .msts__control_select-all:after {
+  content: "❯";
+}
+.twosideMultiselect .msts__control_deselect-all:after {
+  content: "❮";
+}
+.twosideMultiselect .msts__filter {
+  position: relative;
+}
+.twosideMultiselect .msts__filter-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid silver;
+}
+.twosideMultiselect .msts__filter-clear {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 1.25em;
+  color: silver;
+  transition: color ease 0.15s;
+}
+.twosideMultiselect .msts__filter-clear:after {
+  content: "×";
+  vertical-align: middle;
+}
+.twosideMultiselect .msts__filter-clear:hover {
+  color: #c0392b;
+}
+.twosideMultiselect msts_disabled {
+  background-color: #ecf0f1;
+}
+.msts__side_controls {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.twosideMultiselect .msts__heading .msts__side {
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.twosideMultiselect .msts__heading .msts__side_available {
+  background-color: #9b59b6;
+}
+.twosideMultiselect .msts__heading .msts__side_selected {
+  background-color: #3b9845;
+}
+.twosideMultiselect .msts__subheading .msts__side_filter {
+  padding: 5px;
+}
+.twosideMultiselect .msts__footer .msts__side {
+  padding: 5px 15px;
+  background-color: #ecf0f1;
+  font-size: 0.75em;
+  color: #7f8c8d;
+  text-align: right;
+}
+.twosideMultiselect .msts__list {
+  height: 225px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.list-sensor-icons li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+  font-size: 2em;
+}
+// var for box shadow of gradient buttons
+// Buttons
+.btn {
+  box-shadow: none;
+  font-weight: 500;
+
+  // gradient button on hover transition
+  &[class*="bg-gradient-"] {
+    transition: all 0.2s ease;
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  // Icon button padding
+  &.btn-icon {
+    padding: 0.715rem 0.736rem;
+  }
+  &.btn-sm {
+    &.btn-icon {
+      padding: 0.5rem;
+      line-height: 0.5;
+    }
+  }
+  &.btn-lg {
+    &.btn-icon {
+      padding: 1rem;
+      line-height: 0.75;
+    }
+  }
+
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    outline: none;
+    box-shadow: none;
+  }
+
+  &:not(:disabled):not(.disabled):active:focus,
+  &:not(:disabled):not(.disabled).active:focus {
+    box-shadow: none !important;
+  }
+
+  // feather icons inside btn
+  .feather {
+    vertical-align: bottom;
+  }
+}
+.btn-check {
+  &:checked,
+  &:active {
+    + [class*="btn-"] {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+// For Waves Input Padding
+.btn.waves-input-wrapper {
+  padding: 0;
+}
+
+.btn-pinned {
+  position: absolute;
+  top: 1.2rem;
+  right: 0.7rem;
+}
+
+@include media-breakpoint-down(md) {
+  .btn-sm-block {
+    display: block;
+    width: 100%;
+  }
+}
+
+// Remove cursor-pointer from button if button is disabled
+// * setting it to inherit will auto adept cursor
+.waves-effect {
+  cursor: inherit;
+}

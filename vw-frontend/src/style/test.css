@@ -1,0 +1,189 @@
+body {
+  overflow: auto;
+}
+.text-color-white {
+  color: white;
+}
+.hyperlinks a {
+  color: white !important;
+}
+.fullWidthInput input {
+  width: 100% !important;
+}
+.tripPanell {
+  border-color: #3b9845;
+}
+.bg-tripPanellLight {
+  background-color: #3b9845 !important;
+}
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"] {
+  position: relative;
+}
+/* create a new arrow, because we are going to mess up the native one
+see "List of symbols" below if you want another, you could also try to add a font-awesome icon.. */
+input[type="date"]:after,
+input[type="time"]:after,
+input[type="datetime-local"] {
+  content: "\25BC";
+  color: #555;
+  padding: 0 5px;
+}
+/* change color of symbol on hover */
+input[type="date"]:hover:after,
+input[type="time"]:hover:after,
+input[type="datetime-local"] {
+  color: #bf1400;
+}
+/* make the native arrow invisible and stretch it over the whole field so you can click anywhere in the input field to trigger the native datepicker*/
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator,
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  position: absolute !important;
+  top: -2px !important;
+  left: -27px !important;
+  right: 0 !important;
+  bottom: -2px !important;
+  width: 100% !important;
+  height: auto !important;
+  color: transparent !important;
+  background: transparent !important;
+}
+/* adjust increase/decrease button */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-inner-spin-button,
+input[type="datetime-local"]::-webkit-inner-spin-button {
+  z-index: 1;
+}
+/* adjust clear button */
+input[type="date"]::-webkit-clear-button,
+input[type="time"]::-webkit-clear-button,
+input[type="datetime-local"]::-webkit-clear-button {
+  z-index: 1;
+}
+.bg-purple a {
+  color: white !important;
+}
+.tabsNav a {
+  padding: 0.2rem 0.3rem !important;
+}
+.onHover :hover {
+  color: #fff;
+  background-color: #c3a2d1 !important;
+  border-color: #c3a2d1 !important;
+}
+input[type="checkbox"]:checked {
+  background-color: #a77e2d !important;
+  color: #ffffff !important;
+}
+input:focus {
+  border: none;
+}
+input:active {
+  border: none;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.1rem;
+  border-color: #0000;
+  border-radius: 5;
+}
+table,
+label,
+input,
+textarea,
+select,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.dropdown-item,
+button,
+.modal {
+  font-size: 11px !important;
+}
+.ticker {
+  font-size: 11px !important;
+  top: 8px !important;
+}
+.navbar-nav a {
+  font-size: 16px !important;
+}
+.defaultAColor {
+  color: #fff !important;
+}
+.diffAColor {
+  color: #0c5640 !important;
+}
+.bg-purple {
+  background-color: #0c5640;
+}
+.diffAColor:focus,
+.diffAColor:active,
+.diffAColor:visited {
+  background-color: #3b9845 !important;
+}
+.diffAColor:hover{
+  color: #fff !important;
+  background-color: #3b9845 !important;
+}
+#basic-nav-dropdown1 {
+  color: #fff !important;
+}
+input[type="radio"]:after {
+  width: 7px;
+  height: 7px;
+  border-radius: 15px;
+  top: -2px;
+  left: 3px;
+  position: relative;
+  background-color: white !important;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
+input[type="radio"]:checked:after {
+  width: 7px;
+  height: 7px;
+  border-radius: 15px;
+  top: -2px;
+  left: 3px;
+  position: relative;
+  background-color: #3b9845 !important;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #3b9845 !important;
+}
+input[type="checkbox"]:after {
+  width: 0px;
+  height: 0px;
+  top: 0px;
+  left: 1px;
+  position: relative;
+  background-color: white !important;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
+input[type="checkbox"]:checked:after {
+  width: 13px;
+  height: 13px;
+  top: 0px;
+  left: 0px;
+  position: relative;
+  background-color: #3b9845 !important;
+  content: "\2713";
+  display: inline-block;
+  visibility: visible;
+  border: 0.1rem solid black !important;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: -10px;
+  border-radius: 2px;
+}
+.triplistModal {
+  margin-top: 20px !important;
+}
+.rs-icon-map-marker {
+  color: white !important;
+}

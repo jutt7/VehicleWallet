@@ -1,0 +1,485 @@
+/* ==================== KALEEM ULLAH ================== */
+.testmike {
+  color: red;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.changemailBtn:hover {
+  border-bottom: 1px solid #433b33;
+  cursor: pointer;
+}
+.routePlanDiv .react-daterange-picker__button svg {
+  height: 16px !important;
+  width: 15px !important;
+}
+.routePlanDiv .react-daterange-picker__wrapper {
+  max-width: 190px;
+  font-size: 10px;
+  background-color: white;
+  border: 1px solid #ced4da !important;
+}
+.routePlanDiv .react-daterange-picker__range-divider {
+  font-size: 17px;
+}
+
+.routePlanDiv .react-calendar {
+  font-size: 15px;
+}
+
+.routePlanDiv .react-daterange-picker__inputGroup__input {
+  min-width: 4px !important;
+}
+.routePlanDiv .react-daterange-picker__button {
+  padding: 5px 3px !important;
+}
+
+/* datetimerangepicker */
+.routePlanDiv .react-datetimerange-picker__wrapper {
+  max-width: 450px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid #ced4da !important;
+}
+.routePlanDiv .react-datetimerange-picker__inputGroup__input {
+  min-width: 4px !important;
+}
+.routePlanDiv .react-datetimerange-picker__range-divider {
+  font-size: 19px !important;
+}
+.legends {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+rect {
+  stroke-width: 2;
+}
+
+.routplaninNav .logout-menu .dropdown-menu {
+  min-width: 6.5rem !important;
+  margin: 0px !important;
+  border-radius: 0px !important;
+  /* max-width: 7.5rem !important; */
+}
+
+.logout-menu .rs-dropdown-item dropdown-item {
+  padding-left:0px;
+}
+
+.routplaninNav .lng-menu .dropdown-menu {
+  min-width: 8.7rem !important;
+  margin: 0px !important;
+  border-radius: 0px !important;
+  text-align: center;
+  /* max-width: 7.5rem !important; */
+}
+
+.bg-light-purple {
+  background-color: #0C5640;
+  color: white;
+}
+.bg-light-purple :hover {
+  color: white;
+}
+.bg-aquaGreen {
+  background-color: #0C5640 !important;
+  border-color: #0C5640 !important;
+  border-radius: unset !important;
+  color: #f1f1f1 !important;
+}
+
+.border-purple {
+  border: 2px solid #2b2742;
+}
+.border-light-purple {
+  border: 2px solid #c3a2d1;
+}
+.bg-light-brown {
+  background-color: #ccc2a7;
+}
+
+.btn-light-brown {
+  color: white !important;
+  border-color: #3B9845;
+  background-color: #3B9845;
+  border-radius: 0px;
+}
+.btn-light-brown:hover {
+  color: white !important;
+  /* border-color: #8f8b80 !important;*/
+  background-color: #3B9845 !important;
+}
+.btn-light-brown2 {
+  color: black !important;
+}
+.btn-light-brown2:hover {
+  color: white !important;
+  background-color: #3B9845 !important;
+  border-radius: 0px;
+}
+.btn-light-brown:active,
+.btn-light-brown2:active {
+  color: white !important;
+  background-color: #3B9845 !important;
+  border-radius: 0px;
+}
+.livepopcheckright {
+  top: 0px !important;
+  left: 113px !important;
+}
+.livepopcheckleft {
+  left: 613px !important;
+}
+.setMousePointer {
+  cursor: pointer;
+}
+.btnBrown {
+  color: white !important;
+  border-color: #2b2742;
+  background-color: #2b2742;
+}
+.btnBrown:hover {
+  color: white !important;
+  border-color: #8f8b80;
+  background-color: #8f8b80;
+}
+#tripplandropdown-button-drop-up {
+  color: white !important;
+}
+#tripdropdown-button-drop-up {
+  color: white !important;
+}
+.btnGreen {
+  background-color: #1a6734;
+  border-color: #1a6734;
+  color: white;
+}
+.btnGreen:hover {
+  background-color: #086e2a;
+  border-color: #086e2a;
+  color: white;
+}
+.page-link {
+  color: #2b2742;
+}
+.page-link:hover {
+  color: #2b2742;
+}
+.page-link.a:focus {
+  outline: none;
+}
+.page-item.active .page-link {
+  z-index: 0;
+  color: #fff;
+  border-color: #0C5640;
+  background-color: #0C5640;
+}
+
+.infoModalBoostrapTable {
+  max-height: 41vh !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.infoModalBoostrapTable {
+  scrollbar-width: thin; /* "auto" or "thin"  */
+  scrollbar-color: #1a6734 #f5f5f5;
+}
+.infoModalBoostrapTable::-webkit-scrollbar {
+  -moz-appearance: none !important;
+  width: 8px;
+  /* color: brown; */
+  background-color: #f5f5f5;
+}
+.infoModalBoostrapTable::-webkit-scrollbar-thumb {
+  -moz-appearance: none !important;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #1a6734;
+}
+
+.infoModalBoostrapTable::-webkit-scrollbar-track {
+  -moz-appearance: none !important;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #1a6734;
+}
+.routePlanBoostrapTable {
+  max-height: 68vh !important;
+  overflow: auto;
+  /* overflow-y: scroll; */
+  overflow-x: hidden;
+}
+
+.routePlanBoostrapTable {
+  scrollbar-width: thin; /* "auto" or "thin"  */
+  scrollbar-color: #1a6734 #f5f5f5;
+}
+.routePlanBoostrapTable::-webkit-scrollbar {
+  -moz-appearance: none !important;
+  width: 8px;
+  /* color: brown; */
+  background-color: #f5f5f5;
+}
+.routePlanBoostrapTable::-webkit-scrollbar-thumb {
+  -moz-appearance: none !important;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #1a6734;
+}
+
+.routePlanBoostrapTable::-webkit-scrollbar-track {
+  -moz-appearance: none !important;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #1a6734;
+}
+.react-bootstrap-table-page-btns-ul {
+  margin-right: 13px !important;
+}
+
+.modal-open .modal {
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .livepopcheckleft {
+    font-size: 60%;
+  }
+  .livepopcheckright {
+    font-size: 60%;
+  }
+  .legends {
+    font-size: 10px;
+  }
+}
+#cco-map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+#collasible-nav-dropdown {
+  color: white;
+  background: #3B9845;
+}
+#collasible-nav-dropdown:hover {
+  color: #3b9845;
+  background: #fff;
+  border-color: #fff;
+}
+
+/* Tabs style  */
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border: 0;
+  background-color: #433b33;
+}
+/* .nav-tabs > li > a {
+  padding: 10px 30px;
+} */
+/* .nav-tabs > li.active {
+  border-bottom: 3px solid #433b33;
+} */
+
+/* .c_breadcrumb {
+  -webkit-clip-path: polygon(
+    0 0,
+    calc(100% - 15px) 0,
+    100% 50%,
+    calc(100% - 15px) 100%,
+    0 100%,
+    15px 50%
+  );
+  clip-path: polygon(
+    0 0,
+    calc(100% - 15px) 0,
+    100% 50%,
+    calc(100% - 15px) 100%,
+    0 100%,
+    15px 50%
+  );
+} */
+.c_breadcrumb li {
+  background: white;
+  text-decoration: none;
+  -webkit-clip-path: polygon(
+    0 0,
+    calc(100% - 15px) 0,
+    100% 50%,
+    calc(100% - 15px) 100%,
+    0 100%,
+    15px 50%
+  );
+  clip-path: polygon(
+    0 0,
+    calc(100% - 15px) 0,
+    100% 50%,
+    calc(100% - 15px) 100%,
+    0 100%,
+    15px 50%
+  );
+  padding: 0;
+  position: relative;
+}
+
+.c_breadcrumb li:last-child {
+  -webkit-clip-path: polygon(
+    0 0,
+    calc(100% - 0px) 0,
+    100% 50%,
+    calc(100% - 0px) 100%,
+    0 100%,
+    15px 50%
+  );
+  clip-path: polygon(
+    0 0,
+    calc(100% - 0px) 0,
+    100% 50%,
+    calc(100% - 0px) 100%,
+    0 100%,
+    15px 50%
+  );
+  position: relative;
+  padding: 0;
+}
+
+.c_breadcrumb li a:hover {
+  color: white;
+  /* background: #433b33; */
+  border: 1px solid #433b33 !important;
+}
+
+/* first link should not have anything cliped on the left side */
+.c_breadcrumb li:first-child {
+  -webkit-clip-path: polygon(
+    0 0,
+    calc(100% - 15px) 0,
+    100% 50%,
+    calc(100% - 15px) 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    calc(100% - 15px) 0,
+    100% 50%,
+    calc(100% - 15px) 100%,
+    0 100%
+  );
+}
+.customeCardHeaderClass {
+  /* background-color: white; */
+  height: 26vh;
+}
+.cardHeaderWidth {
+  /* width: 95%;
+  border-top-right-radius: 0px !important; */
+}
+.dynamicTripHighlight {
+  width: 6%;
+  position: relative;
+  background-color: #56e39f !important;
+  color: #56e39f;
+  top: -28px;
+  border-top-right-radius: 5px;
+  height: 28px;
+}
+.staticTripHighlight {
+  width: 6%;
+  position: relative;
+  background-color: #88c0d0 !important;
+  color: #88c0d0;
+  top: -28px;
+  border-top-right-radius: 5px;
+  height: 28px;
+}
+.customTripHighlight {
+  width: 6%;
+  position: relative;
+  background-color: #f4a261 !important;
+  color: #f4a261;
+  top: -28px;
+  border-top-right-radius: 5px;
+  height: 28px;
+}
+
+.DRPlanSettingLink,
+.test .active {
+  background-color: #3B9845 !important;
+  color: white !important;
+}
+.DRPlanSettingLink:hover {
+  background-color: #f3f3f3 !important;
+  color: #3B9845 !important;
+}
+.DRPlanSettingLink {
+  background-color: white !important;
+  color: #3B9845 !important;
+}
+.rs-picker-default .rs-picker-toggle {
+  z-index: 0 !important;
+}
+.notifications-br {
+  width: 360px !important;
+}
+/* ENd Tab Style */
+/* ==================== END ==================== */
+.myclass .rs-dropdown-menu a {
+  color: black !important;
+}
+/* 
+  .rs-dropdown-item-active{
+    border-right: 5px solid #3B9845;
+    background: transparent !important ;
+  }
+   */
+/*
+.rs-dropdown-menu-collapse-in .rs-dropdown-expand{
+  background: transparent !important;
+} */
